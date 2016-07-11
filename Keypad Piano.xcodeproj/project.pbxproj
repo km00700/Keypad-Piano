@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A8BD4101D33EC90000D6F0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8BD40F1D33EC90000D6F0D /* AppDelegate.swift */; };
+		2A8BD4121D33EC90000D6F0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8BD4111D33EC90000D6F0D /* ViewController.swift */; };
+		2A8BD4151D33EC90000D6F0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8BD4131D33EC90000D6F0D /* Main.storyboard */; };
+		2A8BD4171D33EC90000D6F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8BD4161D33EC90000D6F0D /* Assets.xcassets */; };
+		2A8BD41A1D33EC90000D6F0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8BD4181D33EC90000D6F0D /* LaunchScreen.storyboard */; };
+		2A8BD4251D33EC90000D6F0D /* Keypad_PianoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8BD4241D33EC90000D6F0D /* Keypad_PianoTests.swift */; };
+		2A8BD4301D33EC90000D6F0D /* Keypad_PianoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8BD42F1D33EC90000D6F0D /* Keypad_PianoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A8BD4211D33EC90000D6F0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A8BD4041D33EC8E000D6F0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A8BD40B1D33EC8E000D6F0D;
+			remoteInfo = "Keypad Piano";
+		};
+		2A8BD42C1D33EC90000D6F0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A8BD4041D33EC8E000D6F0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A8BD40B1D33EC8E000D6F0D;
+			remoteInfo = "Keypad Piano";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A8BD40C1D33EC8E000D6F0D /* Keypad Piano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keypad Piano.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8BD40F1D33EC90000D6F0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A8BD4111D33EC90000D6F0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A8BD4141D33EC90000D6F0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A8BD4161D33EC90000D6F0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A8BD4191D33EC90000D6F0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A8BD41B1D33EC90000D6F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A8BD4201D33EC90000D6F0D /* Keypad PianoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keypad PianoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8BD4241D33EC90000D6F0D /* Keypad_PianoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keypad_PianoTests.swift; sourceTree = "<group>"; };
+		2A8BD4261D33EC90000D6F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A8BD42B1D33EC90000D6F0D /* Keypad PianoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keypad PianoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8BD42F1D33EC90000D6F0D /* Keypad_PianoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keypad_PianoUITests.swift; sourceTree = "<group>"; };
+		2A8BD4311D33EC90000D6F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A8BD4091D33EC8E000D6F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8BD41D1D33EC90000D6F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8BD4281D33EC90000D6F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A8BD4031D33EC8E000D6F0D = {
+			isa = PBXGroup;
+			children = (
+				2A8BD40E1D33EC90000D6F0D /* Keypad Piano */,
+				2A8BD4231D33EC90000D6F0D /* Keypad PianoTests */,
+				2A8BD42E1D33EC90000D6F0D /* Keypad PianoUITests */,
+				2A8BD40D1D33EC8E000D6F0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A8BD40D1D33EC8E000D6F0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A8BD40C1D33EC8E000D6F0D /* Keypad Piano.app */,
+				2A8BD4201D33EC90000D6F0D /* Keypad PianoTests.xctest */,
+				2A8BD42B1D33EC90000D6F0D /* Keypad PianoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A8BD40E1D33EC90000D6F0D /* Keypad Piano */ = {
+			isa = PBXGroup;
+			children = (
+				2A8BD40F1D33EC90000D6F0D /* AppDelegate.swift */,
+				2A8BD4111D33EC90000D6F0D /* ViewController.swift */,
+				2A8BD4131D33EC90000D6F0D /* Main.storyboard */,
+				2A8BD4161D33EC90000D6F0D /* Assets.xcassets */,
+				2A8BD4181D33EC90000D6F0D /* LaunchScreen.storyboard */,
+				2A8BD41B1D33EC90000D6F0D /* Info.plist */,
+			);
+			path = "Keypad Piano";
+			sourceTree = "<group>";
+		};
+		2A8BD4231D33EC90000D6F0D /* Keypad PianoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A8BD4241D33EC90000D6F0D /* Keypad_PianoTests.swift */,
+				2A8BD4261D33EC90000D6F0D /* Info.plist */,
+			);
+			path = "Keypad PianoTests";
+			sourceTree = "<group>";
+		};
+		2A8BD42E1D33EC90000D6F0D /* Keypad PianoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A8BD42F1D33EC90000D6F0D /* Keypad_PianoUITests.swift */,
+				2A8BD4311D33EC90000D6F0D /* Info.plist */,
+			);
+			path = "Keypad PianoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A8BD40B1D33EC8E000D6F0D /* Keypad Piano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8BD4341D33EC90000D6F0D /* Build configuration list for PBXNativeTarget "Keypad Piano" */;
+			buildPhases = (
+				2A8BD4081D33EC8E000D6F0D /* Sources */,
+				2A8BD4091D33EC8E000D6F0D /* Frameworks */,
+				2A8BD40A1D33EC8E000D6F0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Keypad Piano";
+			productName = "Keypad Piano";
+			productReference = 2A8BD40C1D33EC8E000D6F0D /* Keypad Piano.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A8BD41F1D33EC90000D6F0D /* Keypad PianoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8BD4371D33EC90000D6F0D /* Build configuration list for PBXNativeTarget "Keypad PianoTests" */;
+			buildPhases = (
+				2A8BD41C1D33EC90000D6F0D /* Sources */,
+				2A8BD41D1D33EC90000D6F0D /* Frameworks */,
+				2A8BD41E1D33EC90000D6F0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A8BD4221D33EC90000D6F0D /* PBXTargetDependency */,
+			);
+			name = "Keypad PianoTests";
+			productName = "Keypad PianoTests";
+			productReference = 2A8BD4201D33EC90000D6F0D /* Keypad PianoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A8BD42A1D33EC90000D6F0D /* Keypad PianoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8BD43A1D33EC90000D6F0D /* Build configuration list for PBXNativeTarget "Keypad PianoUITests" */;
+			buildPhases = (
+				2A8BD4271D33EC90000D6F0D /* Sources */,
+				2A8BD4281D33EC90000D6F0D /* Frameworks */,
+				2A8BD4291D33EC90000D6F0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A8BD42D1D33EC90000D6F0D /* PBXTargetDependency */,
+			);
+			name = "Keypad PianoUITests";
+			productName = "Keypad PianoUITests";
+			productReference = 2A8BD42B1D33EC90000D6F0D /* Keypad PianoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A8BD4041D33EC8E000D6F0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kai Mills";
+				TargetAttributes = {
+					2A8BD40B1D33EC8E000D6F0D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2A8BD41F1D33EC90000D6F0D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2A8BD40B1D33EC8E000D6F0D;
+					};
+					2A8BD42A1D33EC90000D6F0D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2A8BD40B1D33EC8E000D6F0D;
+					};
+				};
+			};
+			buildConfigurationList = 2A8BD4071D33EC8E000D6F0D /* Build configuration list for PBXProject "Keypad Piano" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A8BD4031D33EC8E000D6F0D;
+			productRefGroup = 2A8BD40D1D33EC8E000D6F0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A8BD40B1D33EC8E000D6F0D /* Keypad Piano */,
+				2A8BD41F1D33EC90000D6F0D /* Keypad PianoTests */,
+				2A8BD42A1D33EC90000D6F0D /* Keypad PianoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A8BD40A1D33EC8E000D6F0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8BD41A1D33EC90000D6F0D /* LaunchScreen.storyboard in Resources */,
+				2A8BD4171D33EC90000D6F0D /* Assets.xcassets in Resources */,
+				2A8BD4151D33EC90000D6F0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8BD41E1D33EC90000D6F0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8BD4291D33EC90000D6F0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A8BD4081D33EC8E000D6F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8BD4121D33EC90000D6F0D /* ViewController.swift in Sources */,
+				2A8BD4101D33EC90000D6F0D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8BD41C1D33EC90000D6F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8BD4251D33EC90000D6F0D /* Keypad_PianoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8BD4271D33EC90000D6F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8BD4301D33EC90000D6F0D /* Keypad_PianoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A8BD4221D33EC90000D6F0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A8BD40B1D33EC8E000D6F0D /* Keypad Piano */;
+			targetProxy = 2A8BD4211D33EC90000D6F0D /* PBXContainerItemProxy */;
+		};
+		2A8BD42D1D33EC90000D6F0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A8BD40B1D33EC8E000D6F0D /* Keypad Piano */;
+			targetProxy = 2A8BD42C1D33EC90000D6F0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A8BD4131D33EC90000D6F0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A8BD4141D33EC90000D6F0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A8BD4181D33EC90000D6F0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A8BD4191D33EC90000D6F0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A8BD4321D33EC90000D6F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A8BD4331D33EC90000D6F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A8BD4351D33EC90000D6F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Keypad Piano/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.16mb.millstech.Keypad-Piano";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A8BD4361D33EC90000D6F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Keypad Piano/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.16mb.millstech.Keypad-Piano";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A8BD4381D33EC90000D6F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Keypad PianoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.16mb.millstech.Keypad-PianoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keypad Piano.app/Keypad Piano";
+			};
+			name = Debug;
+		};
+		2A8BD4391D33EC90000D6F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Keypad PianoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.16mb.millstech.Keypad-PianoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keypad Piano.app/Keypad Piano";
+			};
+			name = Release;
+		};
+		2A8BD43B1D33EC90000D6F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Keypad PianoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.16mb.millstech.Keypad-PianoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Keypad Piano";
+			};
+			name = Debug;
+		};
+		2A8BD43C1D33EC90000D6F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Keypad PianoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.16mb.millstech.Keypad-PianoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Keypad Piano";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A8BD4071D33EC8E000D6F0D /* Build configuration list for PBXProject "Keypad Piano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8BD4321D33EC90000D6F0D /* Debug */,
+				2A8BD4331D33EC90000D6F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A8BD4341D33EC90000D6F0D /* Build configuration list for PBXNativeTarget "Keypad Piano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8BD4351D33EC90000D6F0D /* Debug */,
+				2A8BD4361D33EC90000D6F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A8BD4371D33EC90000D6F0D /* Build configuration list for PBXNativeTarget "Keypad PianoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8BD4381D33EC90000D6F0D /* Debug */,
+				2A8BD4391D33EC90000D6F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A8BD43A1D33EC90000D6F0D /* Build configuration list for PBXNativeTarget "Keypad PianoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8BD43B1D33EC90000D6F0D /* Debug */,
+				2A8BD43C1D33EC90000D6F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A8BD4041D33EC8E000D6F0D /* Project object */;
+}
